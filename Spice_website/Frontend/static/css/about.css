@@ -1,0 +1,22 @@
+#about{
+    background: linear-gradient(to right,#ffffff,#ffe397);
+}
+
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color:#f61616;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: none;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+#about p{
+    color:#2130fc;
+    font-size: 22px;
+    text-align: justify;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+

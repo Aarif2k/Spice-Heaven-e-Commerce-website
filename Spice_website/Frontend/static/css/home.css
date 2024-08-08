@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#home{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('images/hero_page.jpg') no-repeat center center/cover;
+}
+
+
+#home h1 {
+    font-size: 90px; /* Ensure this applies to home.html */
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #f6b3b3,
+                 0px 3px 0px #f1abab,
+                 0px 4px 0px #e99696,
+                 0px 5px 0px #fa9a9a,
+                 0px 6px 0px #e47777;                                                 ;
+}
+
+#home p{
+    color:white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-group{
+    margin-top: 20px;
+    text-align: center;
+    width: 40%;
+    height: 45px;
+}
+
+.signin{
+    background: green;
+    color: white;
+    box-shadow: 2px 4px 5px rgba(0,0,0,0.3);
+    padding: 5px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.signin:hover{
+    background: rgb(52, 142, 52);
+}

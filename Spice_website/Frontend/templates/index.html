@@ -1,0 +1,44 @@
+{% extends 'layouts.html' %}
+
+{% block title %}
+Spice Heaven | Online Shopping
+{% endblock title %}
+
+{% block content %}
+
+    
+    <nav>
+        {% include 'navbar.html' %}
+    </nav>
+    
+    <main>
+        <section id="home">
+            {% include 'home.html' %}
+        </section>
+        
+        <section id="about">
+            {% include 'about.html' %}
+        </section>
+        
+        <section id="products">
+            {% include 'products.html' %}
+        </section>
+
+        <section id="contact">
+            {% include 'contact.html' %}
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; SPICE HEAVEN created by Ahmed Jamal</p>
+    </footer>
+
+
+    
+
+    
+{% endblock content %}  
+
+{% block script %}
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+{% endblock script %}
